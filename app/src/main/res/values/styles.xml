@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style parent="Theme.AppCompat.DayNight.NoActionBar" name="Theme.App">
+        <item name="colorPrimary">@color/Main_color_Light_blue</item>
+        <item name="colorPrimaryDark">@color/Logo_color</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="Rounded_Vid_buttons">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30%</item>
+    </style>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VidCallActivity">
+
+    <FrameLayout
+        android:id="@+id/my_video_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background"/>
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:elevation="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/leaveBtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onLeaveChannelClicked"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/leave_btn_background"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_end_call"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/front_camera"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="Switch_Camera"
+            android:layout_marginBottom="@dimen/vid_btn_margin_bottom"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/active_btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_front_camera"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/back_camera"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="Switch_Camera"
+            android:layout_marginBottom="@dimen/vid_btn_margin_bottom"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/inactive_btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back_camera"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/audioBtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onAudioMuteClicked"
+            android:layout_marginBottom="@dimen/vid_btn_margin_bottom"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/active_btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_mic_on"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/Dis_audioBtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onAudioMuteClicked"
+            android:layout_marginBottom="@dimen/vid_btn_margin_bottom"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/inactive_btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_mic_off"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/videoBtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onVideoMuteClicked"
+            android:layout_marginBottom="@dimen/vid_btn_margin_bottom"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/active_btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_vid_on"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/Dis_videoBtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onVideoMuteClicked"
+            android:layout_marginBottom="@dimen/vid_btn_margin_bottom"
+            android:layout_width="@dimen/vid_btn_width"
+            android:layout_height="@dimen/vid_btn_height"
+            android:background="@color/inactive_btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_vid_off"
+            app:shapeAppearanceOverlay="@style/Rounded_Vid_buttons"/>
+
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="450dp"
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/user_frames"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/joinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onjoinChannelClicked"
+        android:padding="15dp"
+        android:scaleType="centerInside"
+        android:textColor="@color/white"
+        android:background="@drawable/button_style_fill"
+        android:text="ENTER"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

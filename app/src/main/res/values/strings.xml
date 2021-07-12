@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">AgoraTry</string>
+    <string name="app_name">ViGo</string>
+    <string name="time">%02d:%02d </string>
+    <string name="invite">"%s is inviting you to a scheduled meeting on ViGo. \n\nDate:  %s \nTime:  %s to %s \n\nChannel Name: %s"</string>
+    <string name="intro_text_description">To begin with managing and having video calls sign in or sign up if you are already registered.</string>
+    <string name="sign_up_description_text">Please fill the details below to get yourself registered with us</string>
+    <string name="sign_in_description_text">Please provide the details below</string>
     <!--    <string name="agora_app_id">2c163c26938b4981834fd3646db98a84</string>-->
     <!--    <string name="channel_name">hogwarts123</string>-->
     <!--    <string name="agora_access_token">0062c163c26938b4981834fd3646db98a84IAD+MT4h+s68TRoJ+tYFLlESAWAfzT9ughTV860DfcC/pLcTI9EAAAAAEAAm+nFW0FDUYAEAAQDRUNRg</string>-->

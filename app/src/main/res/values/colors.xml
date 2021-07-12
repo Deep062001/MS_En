@@ -10,4 +10,22 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="leave_btn_background">#ff0000</color>
+    <color name="active_btn_background">#99999999</color>
+    <color name="inactive_btn_background">#efffffff</color>
+    <color name="Dark_Gray">#ff5a5a5a</color>
+    <color name="primary_text_color">#363a43</color>
+    <color name="secondary_text_color">#7a8089</color>
+
+    <color name="Logo_color">#ff192841</color>
+    <color name="Light_blue">#ff0ba2e3</color>
+    <color name="Main_color_Light_blue">#ff0c90f1</color>
+    <color name="Blue_Little_Dark">#ff0591f8</color>
+    <color name="V_dark_drey">#ff3f3f3f</color>
+
+    <color name="delete_color">#99FA8072</color>
+    <color name="done_color">#8dbaee</color>
+    
+    <color name="snackbar_color">#f72400</color>
+
 </resources>
