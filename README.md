@@ -21,7 +21,7 @@
 To download the app click [here](https://drive.google.com/drive/folders/1wsXNsNBTWO4f9JTdqdE8hj-SoK34wWMK?usp=sharing) and follow the steps-
 1. Download The JSON file
 2. Download the APK file
-3. Go to **Install packages** in File Manager of your device and click on **app-debug.apk** and allow it to install.
+3. Go to **Install packages** in File Manager of your android device and click on **app-debug.apk** and allow it to install.
 
 
 ## References
