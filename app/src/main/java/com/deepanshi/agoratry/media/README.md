@@ -1,0 +1,1 @@
+This file contains the code of an open-source [AgoraDynamicKey](https://github.com/AgoraIO/Tools/tree/master/DynamicKey/AgoraDynamicKey) repository on GitHub, which enables you to generate tokens with programming languages such as C++, Java, and Go.
