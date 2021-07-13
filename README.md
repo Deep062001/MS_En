@@ -11,7 +11,7 @@
 
 * **[Agora SDK for Android](https://docs.agora.io/en/Video/downloads?platform=Android)** - Agora Video Call enables easy and convenient one-to-one or one-to-many calls and supports voice-only and video modes with the Agora RTC SDK.
 
-* **Agora Token Generator Library** - Agora provides an open-source [AgoraDynamicKey](https://github.com/AgoraIO/Tools/tree/master/DynamicKey/AgoraDynamicKey) repository on GitHub, which enables you to generate tokens on your server with programming languages such as C++, Java, and Go.
+* **Agora Token Generator Library** - Agora provides an open-source [AgoraDynamicKey](https://github.com/AgoraIO/Tools/tree/master/DynamicKey/AgoraDynamicKey) repository on GitHub, which enables you to generate tokens with programming languages such as C++, Java, and Go.
 
 * **[ Room persistance library ](https://developer.android.com/training/data-storage/room)** - The Room persistence library provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
 
