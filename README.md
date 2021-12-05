@@ -17,15 +17,15 @@
 
 ## UI
 
-<img src="Images/start.jpg" height="585" width="270" align="right">The splash screen
-<img src="Images/main.jpg" height="585" width="270" align="left">The Schedule screen
-<img src="Images/create.jpg" height="585" width="270">
-<img src="Images/error.jpg" height="585" width="270">
-<img src="Images/send.jpg" height="585" width="270">
-<img src="Images/swipe.jpg" height="585" width="270">
-<img src="Images/swipe2.jpg" height="585" width="270">
-<img src="Images/join.jpg" height="585" width="270">
-<img src="Images/video.jpg" height="585" width="270">
+<img src="Images/start.jpg" height="585" width="270" align="left">
+<img src="Images/main.jpg" height="585" width="270" align="left">
+<img src="Images/create.jpg" height="585" width="270" align="left">
+<img src="Images/error.jpg" height="585" width="270" align="left">
+<img src="Images/send.jpg" height="585" width="270" align="left">
+<img src="Images/swipe.jpg" height="585" width="270" align="left">
+<img src="Images/swipe2.jpg" height="585" width="270" align="left">
+<img src="Images/join.jpg" height="585" width="270" align="left">
+<img src="Images/video.jpg" height="585" width="270" align="left">
      
      
 ## Download
