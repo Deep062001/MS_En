@@ -17,7 +17,7 @@
 
 ## UI
 
-<img src="Images/start.jpg" height="780" width="360">
+<img src="Images/start.jpg" height="585" width="270">
      
      
 ## Download
