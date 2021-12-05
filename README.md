@@ -15,9 +15,9 @@
 
 * **[ Room persistance library ](https://developer.android.com/training/data-storage/room)** - The Room persistence library provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
 
-##UI
+## UI
 
-<img src="Images/start.jpg">
+<img src="Images/start.jpg" height="2340" width="1080">
      
      
 ## Download
