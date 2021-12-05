@@ -27,7 +27,7 @@
 <img src="Images/join.jpg" height="585" width="270" align="left">
 <img src="Images/video.jpg" height="585" width="270" align="left">
      
-<div align="center" style="display:inline;">
+<div align="center" style="display:block;">
      
 ## Download
 
