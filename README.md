@@ -32,10 +32,10 @@ To download the app click [here](https://drive.google.com/drive/folders/1wsXNsNB
 
 <img src="Images/start.jpg" height="585" width="270" align="left">
 <img src="Images/main.jpg" height="585" width="270" align="left">
-<img src="Images/create.jpg" height="585" width="270" align="left">
+<img src="Images/create.jpg" height="585" width="270" align="left"><br/>
 <img src="Images/error.jpg" height="585" width="270" align="left">
 <img src="Images/send.jpg" height="585" width="270" align="left">
-<img src="Images/swipe.jpg" height="585" width="270" align="left">
+<img src="Images/swipe.jpg" height="585" width="270" align="left"><br/>
 <img src="Images/swipe2.jpg" height="585" width="270" align="left">
 <img src="Images/join.jpg" height="585" width="270" align="left">
 <img src="Images/video.jpg" height="585" width="270" align="left">
